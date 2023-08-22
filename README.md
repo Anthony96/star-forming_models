@@ -7,7 +7,7 @@ logU = ionization parameter <br />
 In all cases, the incident radiation field shape is obtained with BPASS stellar population models (Eldridge et al. 2017), assuming a Salpeter IMF with an upper mass limit of 300 Msun, stellar metallicity equal to the gas phase metallicity of the surrounding gas cloud, and continuous star-formation history with age of 10^8 yr. 
 
 Currently, the flux predictions are available for the following emission lines :
-H $\alpha$ , [OIII]  $ 5006.84 \AA$  <br />
+H $\alpha$ , [OIII]  $ 5006.84$ \unicode{xC5}  <br />
 C__1_985026A_SF.txt
 H__1_128180M_SF.txt
 S__3_953062A_SF.txt
