@@ -8,12 +8,12 @@ In all cases, the incident radiation field shape is obtained with BPASS stellar 
 The brightness of the incident radiation field is defined through the ionization parameter log(U) varying between $−4$ and $−1$. 
 Regarding the properties of the gas cloud surrounding the ionizing source (we adopt the spherical shell geometry), we assume a hydrogen number density ranging from $10^2$ to $10^4$ $cm^{−3}$, and a gas-phase metallicity Z<sub>gas</sub> from $10\%$ solar to two times solar, where the solar abundance of each element is set as in Savage \& Sembach (1996). The Cloudy calculation is stopped when reaching a temperature of $500$ K. 
 # Line predictions available
-Each table contains the predictions of the line intensity (in units of *erg/s*, obtained with the command 'get_emis_vol' in pycloudy) of a specific emission line (relative to $H\beta$) specified in the filename, as a function of the following model parameters : <br />
+The table in the repository contains the predictions of the line intensity (in units of *erg/s*, obtained with the command 'get_emis_vol' in pycloudy) as a function of the following model parameters : <br />
 **dens** = gas density of the cloud (in units of $1/cm^3$ and logarithmic scale) <br />
 **met** = gas-phase metallicity  <br />
 **OH** = corresponding oxygen abundance of the cloud (12+log(O/H)) <br />
 **logU** = ionization parameter <br />
-
+for the following line ratios :
 # 
 Currently, the flux predictions are available for the following emission lines, in order of increasing wavelength : \
 $H\beta$ \
