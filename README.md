@@ -8,7 +8,7 @@ In all cases, the incident radiation field shape is obtained with BPASS stellar 
 The brightness of the incident radiation field is defined through the ionization parameter log(U) varying between $−4$ and $−1$. 
 Regarding the properties of the gas cloud surrounding the ionizing source (we adopt the spherical shell geometry), we assume a hydrogen number density ranging from $10^2$ to $10^4$ $cm^{−3}$, and a gas-phase metallicity Z<sub>gas</sub> from $10\%$ solar to two times solar, where the solar abundance of each element is set as in Savage \& Sembach (1996). The Cloudy calculation is stopped when reaching a temperature of $500$ K. 
 # Line predictions available
-The table *joined_table_SF_models.txt* in the repository contains the predictions of the line intensity (in units of *erg/s*, obtained with the command 'get_emis_vol' in pycloudy) as a function of the following model parameters : <br /> 
+The table *joined_table_SF_models.txt* in the repository contains the predictions of the line intensity (in units of *erg/s*, obtained with the command 'get_emis_vol' in pycloudy, and scaled to an $H \beta$ intensity of $100$) as a function of the following model parameters : <br /> 
 
 --- --- 
 | column name | description |
@@ -23,10 +23,10 @@ Currently, the flux predictions are available for the following emission lines, 
 
 | column name | emission line |
 | --- | --- |
-| CII_1335 | $1335$ &angst; |
-| CIV_1551 | $1550.78$ &angst; |
-| HeII_1640 | $1640.43$ &angst; |
-| CIII_1909 | $1909$ &angst; |
+| CII_1335 | [CII] $1335$ &angst; |
+| CIV_1551 | CIV $1550.78$ &angst; |
+| HeII_1640 | HeII $1640.43$ &angst; |
+| CIII_1909 | CIII] $1909$ &angst; |
 | Hbeta | $H\beta$ |
 | OIII_5007 | [OIII] $5006.84$ &angst; |
 | Halpha | $H\alpha$ |
