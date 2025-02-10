@@ -3,6 +3,9 @@ https://arxiv.org/abs/2306.08605
 
 We use for the calculations the package pyCloudy v.0.9.11: 
 https://github.com/Morisset/pyCloudy/tree/0.9.11. 
+
+$\textcolor{green}{**}$ **Update 10 February 2025 :** new models have been added, spanning a larger and tighter grid of electron densities as : 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, and 10000 $cm^{-3}$. Predictions are also available for a few additional emission lines from the rest-frame UV to far-infrared (see new tables: **new_predictions_SF_models.txt** and **.csv**). $\textcolor{green}{*}$
+
 # Description of the models
 In all cases, the incident radiation field shape is obtained with BPASS stellar population models (Eldridge et al. 2017), assuming a Salpeter IMF with an upper mass limit of 300 M<sub>sun</sub> , stellar metallicity equal to the gas phase metallicity of the surrounding gas cloud, and continuous star-formation history with age of $10^8$ yr. 
 The brightness of the incident radiation field is defined through the ionization parameter log(U) varying between $−4$ and $−1$. 
